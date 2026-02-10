@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Arun Kumar",
+    "grade": "10",
+    "subject": [
+      { "name": "Maths", "mark": 78 },
+      { "name": "Science", "mark": 85 },
+      { "name": "English", "mark": 72 }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "grade": "10",
+    "subject": [
+      { "name": "Maths", "mark": 88 },
+      { "name": "Science", "mark": 91 },
+      { "name": "English", "mark": 84 }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Rahul Verma",
+    "grade": "9",
+    "subject": [
+      { "name": "Maths", "mark": 67 },
+      { "name": "Science", "mark": 73 },
+      { "name": "English", "mark": 70 }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "grade": "9",
+    "subject": [
+      { "name": "Maths", "mark": 92 },
+      { "name": "Science", "mark": 89 },
+      { "name": "English", "mark": 90 }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Amit Singh",
+    "grade": "8",
+    "subject": [
+      { "name": "Maths", "mark": 60 },
+      { "name": "Science", "mark": 65 },
+      { "name": "English", "mark": 58 }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Neha Roy",
+    "grade": "8",
+    "subject": [
+      { "name": "Maths", "mark": 81 },
+      { "name": "Science", "mark": 77 },
+      { "name": "English", "mark": 79 }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vikram Iyer",
+    "grade": "7",
+    "subject": [
+      { "name": "Maths", "mark": 74 },
+      { "name": "Science", "mark": 69 },
+      { "name": "English", "mark": 71 }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ananya Das",
+    "grade": "7",
+    "subject": [
+      { "name": "Maths", "mark": 95 },
+      { "name": "Science", "mark": 93 },
+      { "name": "English", "mark": 92 }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rohit Mehta",
+    "grade": "6",
+    "subject": [
+      { "name": "Maths", "mark": 55 },
+      { "name": "Science", "mark": 61 },
+      { "name": "English", "mark": 59 }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Kavya Nair",
+    "grade": "6",
+    "subject": [
+      { "name": "Maths", "mark": 86 },
+      { "name": "Science", "mark": 88 },
+      { "name": "English", "mark": 84 }
+    ]
+  }
+]
