@@ -1,3 +1,5 @@
+import { PencilSquareIcon, TrashIcon } from "@heroicons/react/24/outline";
+
 export default function StudentList({ students, onEdit, onDelete }) {
   return (
     <div className="overflow-x-auto rounded-xl shadow border bg-white">
@@ -23,9 +25,7 @@ export default function StudentList({ students, onEdit, onDelete }) {
                   index % 2 === 0 ? "bg-gray-50" : "bg-white"
                 }`}
               >
-                <td className="p-3 font-medium text-gray-800">
-                  {s.name}
-                </td>
+                <td className="p-3 font-medium text-gray-800">{s.name}</td>
 
                 <td className="p-3 text-center">
                   <span className="px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-semibold">
@@ -52,20 +52,26 @@ export default function StudentList({ students, onEdit, onDelete }) {
                   </span>
                 </td>
 
-                <td className="p-3 text-center space-x-2">
-                  <button
-                    onClick={() => onEdit(s)}
-                    className="px-3 py-1 text-sm rounded bg-blue-600 text-white hover:bg-blue-700 transition"
-                  >
-                    Edit
-                  </button>
+                <td className="p-3 text-center">
+                  <div className="flex justify-center gap-3">
+                    {/* Edit */}
+                    <button
+                      onClick={() => onEdit(s)}
+                      className="p-2 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition"
+                      title="Edit"
+                    >
+                      <PencilSquareIcon className="w-5 h-5" />
+                    </button>
 
-                  <button
-                    onClick={() => onDelete(s.id)}
-                    className="px-3 py-1 text-sm rounded bg-red-500 text-white hover:bg-red-600 transition"
-                  >
-                    Delete
-                  </button>
+                    {/* Delete */}
+                    <button
+                      onClick={() => onDelete(s.id)}
+                      className="p-2 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition"
+                      title="Delete"
+                    >
+                      <TrashIcon className="w-5 h-5" />
+                    </button>
+                  </div>
                 </td>
               </tr>
             );
